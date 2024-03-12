@@ -6,7 +6,7 @@ type Props = {
 const Input = ({onChange}: Props) => {
   return (
     <>
-      <input value={} onChange={(e) => {onChange(e.target.value)}} type="text" className="input" placeholder="To do..." />
+      <input value={} onChange={(e) => {onChange(e.target.value)}} type="text" className="input" placeholder="To do...." />
     </>
   );
 };
