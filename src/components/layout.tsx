@@ -7,7 +7,10 @@ type Props = {
 const Layout = ({ children }: Props) => {
   return (
     <>
-      <div className="layout">{children}</div>
+      <div className="layout">
+        <p>hello i am layout component</p>
+        {children}
+      </div>
     </>
   );
 };
