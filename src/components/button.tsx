@@ -9,7 +9,13 @@ type Props = {
 const Button = ({ children, bgColor, onClick }: Props) => {
   return (
     <>
-      <button onClick={onClick} className="button" style={{backgroundColor: bgColor}}>{children}</button>
+      <button
+        onClick={onClick}
+        className="button testClass"
+        style={{ backgroundColor: bgColor }}
+      >
+        {children}
+      </button>
     </>
   );
 };
